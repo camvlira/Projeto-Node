@@ -9,9 +9,6 @@ app.get("/produtos", function (req, res) {
   res.send("lista de produto");
 });
 
-//app.get("/consulta/:parametro", function (req, res) {
-//  res.send("retorno consulta:" + req.params.parametro);
-//});
 
 app.get("/consulta/", function (req, res) {
   var cpf = req.query["cpf"];
