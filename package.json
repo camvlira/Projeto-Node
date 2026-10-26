@@ -1,0 +1,23 @@
+{
+  "name": "projeto-node",
+  "version": "1.0.0",
+  "description": "teste",
+  "homepage": "https://github.com/camvlira/Projeto-Node#readme",
+  "bugs": {
+    "url": "https://github.com/camvlira/Projeto-Node/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camvlira/Projeto-Node.git"
+  },
+  "license": "ISC",
+  "author": "camvlira",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
